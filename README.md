@@ -1,5 +1,5 @@
 # Premios nobeles 
-![Premios nobeles]([https://github.com/madand1/proyecto_json/blob/main/premio_nobel.jpg]
+![Premios nobeles](https://github.com/madand1/proyecto_json/blob/main/premio_nobel.jpg?raw=true)
 ## Enunciados:
 
 * Listar las categorías de premios nobel que se han entregado.
