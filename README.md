@@ -1,5 +1,5 @@
-# Proyecto-Json 
-
+# Premios nobeles 
+![Premios nobeles]([https://github.com/madand1/proyecto_json/blob/main/premio_nobel.jpg]
 ## Enunciados:
 
 * Listar las categorías de premios nobel que se han entregado.
@@ -17,4 +17,4 @@
 * ¿Podrías proporcionarme el nombre del ganador o ganadores en una categoría específica para un año determinado de los Premios Nobel? Si hubo más de un ganador, por favor, incluye los nombres de todos los laureados    que compartieron el premio en esa categoría y año
     --Esta función muestra los nombres de los premiados que compartieron un premio en una categoría específica y año determinado.
     --Devuelve los nombres de los premiados que compartieron el premio en esa categoría y año.
-![Texto alternativo](URL_de_la_imagen)
+![Premios nobeles]([https://github.com/madand1/proyecto_json/blob/main/premio_nobel.jpg]
