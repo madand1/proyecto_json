@@ -46,12 +46,15 @@ while opcion !=0:
 
     elif opcion ==2:
         fecha = input("Introduzca el año del que desea obtener el número de premiados: ")
-        mostrar_num = ContarPremiados(fecha,nobel)
+        mostrar_num , premiados = ContarPremiados(fecha,nobel)
         if mostrar_num >0:
             print("- - - - - - - - - - - - - - - - - - - NÚMERO PREMIADOS DE",fecha, "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
             print()
-            print("Son un total de", mostrar_num)
+            print("Total de premiados en el año",fecha, "es", mostrar_num)
             print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+            print("Nombre de los premiados:")
+            for premiado in premiados:
+                print ("Nombre:", premiado["nombre"])
         else:
             print("- - - - - - - - - - - - - - - - - - - - - - - - ")
             print ("No existen premiados de dicho año.")
