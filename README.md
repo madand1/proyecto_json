@@ -6,7 +6,7 @@
 
 _Esta función muestra las diferentes categorías de premios Nobel que existen en el archivo, y devuelve una lista de las categorías de premios Nobel disponibles._
 
-2. **Cuenta el número de premiados del año introducido por teclado.**
+2. **Cuenta el número de premiados del año introducido por teclado y nos da el nombre de los premiados.**
 
 _Esta función cuenta cuántos premios Nobel se otorgaron en un año específico, y devuelve el número total de premios Nobel otorgados en ese año._
 
