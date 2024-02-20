@@ -9,14 +9,21 @@ def ListarCategorias(nobel):
 
 
 #Función Ejercicio 2: Cuenta el número de premiados del año introducido por teclado.
-def ContarPremiados(fecha,nobel):
-    id_premiados=[]
-    for premiado in nobel:
-        if premiado["year"]==fecha:
-            if not (premiado.get('laureates') is None):
-                for elemento in premiado["laureates"]:
-                    id_premiados.append(elemento["id"])
-    return (len(id_premiados))
+def ContarPremiados(fecha, nobel):
+    premiados = []
+    for premio in nobel:
+        if premio["year"] == fecha:
+            if premio.get('laureates') is not None:
+                for laureado in premio["laureates"]:
+                    premiado_info = {
+                        "nombre": laureado.get('firstname'),
+                        "apellido": laureado.get('surname'),
+                        "categoria": premio.get("category")
+                    }
+                    premiados.append(premiado_info)
+    total_premiados = len(premiados)
+    return total_premiados, premiados
+
 
 
 #Función Ejercicio 3: Buscar el año y muestra los premiados con sus categorías y nombre.
